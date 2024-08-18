@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    
+}
+body{
+    height: 100%;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: block;
+    flex-direction: column;
+    margin: 0;
+}
+.container h1{
+    align-items: center;
+    justify-content: center;
+    padding-left: 590px;
+    margin: 10px;
+}
+.container .main img{
+    width: 200px;
+    height: 200px;
+    padding-left: 630px;
+    margin: 10px;
+}
+.container .photos img{
+    width: 100px;
+    height: 100px;
+    padding-left: 280px;
+    margin: 10px;
+
+}
+
+#player{
+    align-items: center;
+    justify-content: center;
+    padding-left: 640px;
+    margin: 10px;
+    font-size: 1.5rem;
+
+}
+#computer{
+    align-items: center;
+    justify-content: center;
+    padding-left: 640px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+#result{
+    font-size: 3rem;
+    margin: 5px 0;
+    padding-left: 600px;
+}
+.scoreP{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scoreC{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+

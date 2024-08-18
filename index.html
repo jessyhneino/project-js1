@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Jessy Hneno</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="main">
+            <img src="images/main.jpg" alt="">
+        </div>
+        <div class="photos">
+            <img onclick="play('rock')"  src="images/1.jpg" alt="">
+            <img onclick="play('paper')" src="images/2.jpg" alt="">
+            <img onclick="play('scissors')" src="images/3.jpg" alt="">
+        </div>
+        
+        <div id="player">player:</div>
+        <div id="computer">computer:</div>
+        <div id="result"></div>
+    </div>
+    <div class="scoreP">Player Score:<span id="playerScore">0</span>
+    </div>
+    <div class="scoreC">Computer Score:<span id="computerScore">0</span>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
